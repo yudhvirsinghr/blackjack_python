@@ -27,7 +27,7 @@ class Deck:
                 self.deck.append(Card(suit, rank))
 
     def __str__(self):
-        return [print(card) for card in self.deck]
+        return ('\n').join(map(lambda x: x.__str__(), self.deck))
 
     def shuffle(self):
         random.shuffle(self.deck)

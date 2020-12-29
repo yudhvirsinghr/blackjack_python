@@ -25,4 +25,4 @@ class Card:
         self.value = card_dict[rank]
 
     def __str__(self):
-        return self.rank + " of " + self.rank
+        return self.rank + " of " + self.suit
