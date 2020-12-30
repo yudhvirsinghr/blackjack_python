@@ -5,8 +5,7 @@ Blackjack game implemented in python3
 Python3
 
 ### How to Play
-``` python3 run.py
-```
+``` python3 run.py ```
 
 ### Screenshot
 
